@@ -1,0 +1,176 @@
+ASTON a s t ə n
+BIRMINGHAM  b ɜː m ɪ ŋ ə m
+BIRMINGHAM  b ɜː m ɪ ŋ ɡ ə m
+BOURNVILLE b ɒː n v ɪ ɫ
+BRINDLEY b ɹ ɪ n d l i
+BRINLEY b ɹ ɪ n l i
+BROMWICH b ɹ ɒ m ɪ tʃ
+BRUM  b ɹ ɐ m
+BULLRING b ʊ ɫ ɹ ɪ ŋ
+COLMORE k əw ɫ m ɒː
+COVENTRY  k ɐ v ɛ n t ɹ i
+CADBURY  k a d b ɛ ɹ i
+CADBURY  k a d b ɹ i
+DIGBETH d ɪ ɡ b ɛ θ
+DUDLEY  d ɐ d l i
+HALESOWEN h ej ɫ z əw ɪ n
+HIPPODROME h ɪ p ə d ɹ əw m
+OLDBURY  əw ɫ d b ɛ ɹ i
+REDDITCH ɹ ɛ d ɪ tʃ
+SELLY s ɛ l i
+SMETHWICK s m ɛ d̪ ɪ k
+SOLIHULL s ɒː l i h ɐ ɫ
+STOURBRIDGE s t aw ə b ɹ ɪ dʒ
+UK j ʉː k ej
+WOLVERHAMPTON  w ʊ l v ə h a m p t ə n
+YARDLEY j ɑː d l i
+SINGING  s ɪ ŋ ɪ ŋ
+SINGING  s ɪ ŋ ɡ ɪ ŋ
+RINGING  ɹ ɪ ŋ ɪ ŋ
+RINGING  ɹ ɪ ŋ ɡ ɪ ŋ
+BRINGING  b ɹ ɪ ŋ ɪ ŋ
+BRINGING  b ɹ ɪ ŋ ɡ ɪ ŋ
+GOING  ɡ ɒ ʊ ɪ ŋ
+GOING  ɡ ɒ ʊ ɪ ŋ ɡ
+DOING  d ʉː ɪ ŋ
+DOING  d ʉː ɪ ŋ ɡ
+NOTHING  n ɐ θ ɪ ŋ
+NOTHING  n ɐ f ɪ ŋ
+NOTHING  n ɐ θ ɪ ŋ ɡ
+NOTHING  n ɐ f ɪ ŋ ɡ
+SOMETHING  s ɐ m θ ɪ ŋ
+SOMETHING  s ɐ m f ɪ ŋ
+SOMETHING  s ɐ m θ ɪ ŋ ɡ
+SOMETHING  s ɐ m f ɪ ŋ ɡ
+EVERYTHING  ɛ v ɹ ɪ θ ɪ ŋ
+EVERYTHING  ɛ v ɹ ɪ f ɪ ŋ
+EVERYTHING  ɛ v ɹ ɪ θ ɪ ŋ ɡ
+EVERYTHING  ɛ v ɹ ɪ f ɪ ŋ ɡ
+LONG  l ɒ ŋ
+LONG  l ɒ ŋ ɡ
+THE  ð ə
+THE  v ə
+THAT  ð a t
+THAT  v a t
+THIS  ð ɪ s
+THIS  v ɪ s
+THEM  ð ɛ m
+THEM  v ɛ m
+THEY  ð ej
+THEY  v ej
+THEIR  ð ɛː
+THEIR  v ɛː
+THERE  ð ɛː
+THERE  v ɛː
+THINK  θ ɪ ŋ k
+THINK  f ɪ ŋ k
+THING  θ ɪ ŋ
+THING  f ɪ ŋ
+THINGS  θ ɪ ŋ z
+THINGS  f ɪ ŋ z
+THOUGHT  θ ɒː t
+THOUGHT  f ɒː t
+THREE  θ ɹ iː
+THREE  f ɹ iː
+THROUGH  θ ɹ ʉː
+THROUGH  f ɹ ʉː
+THURSDAY  θ ɜː z d ej
+THURSDAY  f ɜː z d ej
+WITH  w ɪ θ
+WITH  w ɪ f
+THIRTY  θ ɜː t i
+THIRTY  f ɜː t i
+GONNA  ɡ ɒ n ə
+GONNA  ɡ ə n ə
+WANNA  w ɒ n ə
+GOTTA  ɡ ɒ t ə
+GOTTA  ɡ ɒ ʔ ə
+DUNNO  d ə n əw
+DUNNO  d ʊ n əw
+GIMME  ɡ ɪ m i
+LEMME  l ɛ m i
+KINDA  k aj n d ə
+SORTA  s ɒː t ə
+OUTTA  aw t ə
+LOTTA  l ɒ t ə
+CUPPA  k ɐ p ə
+C'MON  k m ɒ n
+COS  k ɒ z
+COS  k ə z
+CUZ  k ə z
+Y'KNOW  j ə n əw
+D'YOU  d j ʉː
+D'YOU  dʒ ə
+D'YA  d j ə
+INNIT  ɪ n ɪ t
+YA  j ə
+'LL  ə l
+'VE  ə v
+'D  d
+'RE  ə
+'EM  ə m
+'ER  ə
+'IM  ɪ m
+'E  iː
+'S s
+'S z
+'S ɪ z
+WE'RE  w ɪ ə
+WE'RE  w ɜː
+WE'RE  w ə
+YOU'RE  j ɒː
+YOU'RE  j ʊ ə
+YOU'RE  j ə
+THEY'VE  θ ej v
+AY  aj
+AY  ej
+AI  aj
+BAY  b ej
+BIN  b ɪ n
+COR  k ɒː
+COR  k ɒ
+DAY  d ej
+DOH  d əw
+DOW  d aw
+DOW  d əw
+WO  w əw
+WOR  w ɒː
+WE'M  w iː m
+WE'M  w ɪ m
+YOU'M  j ʉː m
+YOU'M  j ə m
+YOW  j aw
+YOW'M  j aw m
+SUMMAT  s ɐ m ə t
+SUMMAT  s ʊ m ə t
+TARA  t ə ɹ ɑː
+TA  t ɑː
+ENT  ɛ n t
+IN'T  ɪ n t
+BLAH  b l ɑː
+LEGALISED  l iː ɡ ə l aj z d
+TANTRUM  t a n t ɹ ə m
+SPONTANEOUS s p ɒ n t ej n i ə s
+CUZ  k ɐ z
+UBER ʉː b ə
+TIKTOK t ɪ k t ɒ k
+TYRION t i ɹ i ə n
+FUCK  f ɐ k
+FUCKING  f ɐ k ɪ ŋ
+SHIT  ʃ ɪ t
+NAH  n a
+NAH  n ɒː
+NAH  n ɑː
+DUH  d ɐ
+HMMM  m
+ECLAIR  i k l ɛː
+CREME  k ɹ iː m
+TWIRL  t w ɜː ɫ
+TWIRL  t w ɛː ɫ
+WISPA  w ɪ s p ə
+CRUNCHIE  k ɹ ɐ n tʃ i
+DINKY  d ɪ n k i
+WURLY  w ɜː ʎ i
+UGH  ɐ ɡ
+MMMM  m
+MHMM  m
