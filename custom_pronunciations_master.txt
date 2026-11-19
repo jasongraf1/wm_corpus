@@ -3,7 +3,7 @@
 # Custom pronunciation entries for West Midlands / Birmingham / Black Country English.
 # MFA doesn't work with commented files, so we need to convert these to a simple version.
 # 1. Convert these to the basic MFA dictionary with:
-#   > python 00d_make_mfa_dict.py
+#   > python 06_make_mfa_dict.py
 #
 # 2. Then run:
 #   > mfa model download dictionary english_uk_mfa
