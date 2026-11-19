@@ -1,0 +1,283 @@
+# custom_pronunciations_master.txt
+# --------------------------
+# Custom pronunciation entries for West Midlands / Birmingham / Black Country English.
+# MFA doesn't work with commented files, so we need to convert these to a simple version.
+# 1. Convert these to the basic MFA dictionary with:
+#   > python 00d_make_mfa_dict.py
+#
+# 2. Then run:
+#   > mfa model download dictionary english_uk_mfa
+#   > mfa model add_words english_uk_mfa custom_pronunciations_mfa.txt
+#
+# Format: WORD  PHONEME1 PHONEME2 ...
+# Uses MFA's English MFA phoneset (based on IPA-ish labels).
+# Run `mfa model inspect english_uk_mfa` to see all available phoneme symbols.
+#
+# NOTES:
+# - These cover non-rhotic pronunciations (no /r/ post-vocalically),
+#   and common West Midlands vowel realisations.
+# - For velar nasal plus words, we provide BOTH pronunciations (with and without /g/)
+#   so MFA can choose the best path during alignment.
+# - Common th-fronting variants are included so MFA can align /f/ and /v/ realisations.
+# - Glottal /t/ is not included
+#
+# ---- PLACE NAMES ----
+# Birmingham: canonical non-rhotic, and VN+ variant with /g/
+ASTON a s t ə n
+BIRMINGHAM  b ɜː m ɪ ŋ ə m
+BIRMINGHAM  b ɜː m ɪ ŋ ɡ ə m
+BOURNVILLE b ɒː n v ɪ ɫ
+BRINDLEY b ɹ ɪ n d l i
+BRINLEY b ɹ ɪ n l i
+BROMWICH b ɹ ɒ m ɪ tʃ 
+BRUM  b ɹ ɐ m
+BULLRING b ʊ ɫ ɹ ɪ ŋ
+COLMORE k əw ɫ m ɒː
+COVENTRY  k ɐ v ɛ n t ɹ i
+CADBURY  k a d b ɛ ɹ i
+CADBURY  k a d b ɹ i
+DIGBETH d ɪ ɡ b ɛ θ
+DUDLEY  d ɐ d l i
+HALESOWEN h ej ɫ z əw ɪ n
+HIPPODROME h ɪ p ə d ɹ əw m
+OLDBURY  əw ɫ d b ɛ ɹ i
+REDDITCH ɹ ɛ d ɪ tʃ
+SELLY s ɛ l i
+SMETHWICK s m ɛ d̪ ɪ k 
+SOLIHULL s ɒː l i h ɐ ɫ
+STOURBRIDGE s t aw ə b ɹ ɪ dʒ
+UK j ʉː k ej
+WOLVERHAMPTON  w ʊ l v ə h a m p t ə n
+YARDLEY j ɑː d l i
+
+
+# ---- VELAR NASAL PLUS WORDS ----
+# Common -ing words and -ingham words with optional /g/ retention
+SINGING  s ɪ ŋ ɪ ŋ
+SINGING  s ɪ ŋ ɡ ɪ ŋ
+
+RINGING  ɹ ɪ ŋ ɪ ŋ
+RINGING  ɹ ɪ ŋ ɡ ɪ ŋ
+
+BRINGING  b ɹ ɪ ŋ ɪ ŋ
+BRINGING  b ɹ ɪ ŋ ɡ ɪ ŋ
+
+GOING  ɡ ɒ ʊ ɪ ŋ
+GOING  ɡ ɒ ʊ ɪ ŋ ɡ
+
+DOING  d ʉː ɪ ŋ
+DOING  d ʉː ɪ ŋ ɡ
+
+NOTHING  n ɐ θ ɪ ŋ
+NOTHING  n ɐ f ɪ ŋ 
+NOTHING  n ɐ θ ɪ ŋ ɡ
+NOTHING  n ɐ f ɪ ŋ ɡ
+
+SOMETHING  s ɐ m θ ɪ ŋ
+SOMETHING  s ɐ m f ɪ ŋ
+SOMETHING  s ɐ m θ ɪ ŋ ɡ
+SOMETHING  s ɐ m f ɪ ŋ ɡ
+
+EVERYTHING  ɛ v ɹ ɪ θ ɪ ŋ
+EVERYTHING  ɛ v ɹ ɪ f ɪ ŋ
+EVERYTHING  ɛ v ɹ ɪ θ ɪ ŋ ɡ
+EVERYTHING  ɛ v ɹ ɪ f ɪ ŋ ɡ
+
+LONG  l ɒ ŋ
+LONG  l ɒ ŋ ɡ
+
+# ---- TH-FRONTING VARIANTS ----
+# Provide /f/ and /v/ variants alongside canonical /θ/ /ð/ entries
+# so MFA can align fronted realisations
+
+THE  ð ə
+THE  v ə
+
+THAT  ð a t
+THAT  v a t
+
+THIS  ð ɪ s
+THIS  v ɪ s
+
+THEM  ð ɛ m
+THEM  v ɛ m
+
+THEY  ð ej
+THEY  v ej
+
+THEIR  ð ɛː
+THEIR  v ɛː
+
+THERE  ð ɛː
+THERE  v ɛː
+
+THINK  θ ɪ ŋ k
+THINK  f ɪ ŋ k
+
+THING  θ ɪ ŋ
+THING  f ɪ ŋ
+
+THINGS  θ ɪ ŋ z
+THINGS  f ɪ ŋ z
+
+THOUGHT  θ ɒː t
+THOUGHT  f ɒː t
+
+THREE  θ ɹ iː
+THREE  f ɹ iː
+
+THROUGH  θ ɹ ʉː
+THROUGH  f ɹ ʉː
+
+THURSDAY  θ ɜː z d ej
+THURSDAY  f ɜː z d ej
+
+WITH  w ɪ θ
+WITH  w ɪ f
+
+THIRTY  θ ɜː t i
+THIRTY  f ɜː t i
+
+# ---- CONTRACTIONS & REDUCED FORMS (proposed additions) ----
+# NOTE: standard contractions (don't, can't, I'm, it's...) are already in
+# english_uk_mfa - run 00c_check_oov_textgrid.py on real data first and only
+# keep entries here that actually surface as OOVs in your transcripts.
+# Symbols follow the MFA UK house style (ej/aj diphthongs, ɹ, ɐ, ʉː, a, ɒː).
+# VERIFY with 00e_check_phoneset.py before adding: in particular the GOAT
+# symbol (əw assumed here - check e.g. stock "no"/"go"), the MOUTH symbol
+# (aw assumed - check "now"/"out"), and whether ʔ is in the inventory.
+
+# ---- Reduced colloquial forms ----
+GONNA  ɡ ɒ n ə
+GONNA  ɡ ə n ə
+WANNA  w ɒ n ə
+GOTTA  ɡ ɒ t ə
+GOTTA  ɡ ɒ ʔ ə
+DUNNO  d ə n əw
+DUNNO  d ʊ n əw
+GIMME  ɡ ɪ m i
+LEMME  l ɛ m i
+KINDA  k aj n d ə
+SORTA  s ɒː t ə
+OUTTA  aw t ə
+LOTTA  l ɒ t ə
+CUPPA  k ɐ p ə
+C'MON  k m ɒ n
+COS  k ɒ z
+COS  k ə z
+CUZ  k ə z
+Y'KNOW  j ə n əw
+D'YOU  d j ʉː
+D'YOU  dʒ ə
+D'YA  d j ə
+INNIT  ɪ n ɪ t
+
+# "ya" as second person pronoun
+YA  j ə
+
+# ---- Clitic tokens ----
+# For clitics attached to unusual hosts ("the bloke'll", "Karen've") that
+# the dictionary can't list exhaustively. Follows the 's precedent.
+# Only useful if your tokenization actually separates them - check how
+# these surface in 00c output before adding.
+'LL  ə l
+'VE  ə v
+'D  d
+'RE  ə
+'EM  ə m
+'ER  ə
+'IM  ɪ m
+'E  iː
+'S s 
+'S z
+'S ɪ z
+
+WE'RE  w ɪ ə
+WE'RE  w ɜː
+WE'RE  w ə
+YOU'RE  j ɒː
+YOU'RE  j ʊ ə
+YOU'RE  j ə
+THEY'VE  θ ej v
+
+# ---- Black Country / Birmingham dialect contractions ----
+# Negated auxiliaries and local forms - PRUNE AND ADJUST per what your
+# transcribers actually wrote and what you hear. Spellings vary by
+# transcriber (ay/ai, cor/cor', doh/dow, wo/wor(t)) - match your data.
+
+# "ay" / "ai" = isn't/aren't ("it ay right")
+AY  aj
+AY  ej
+AI  aj
+
+# "bay" = isn't/aren't (traditional BC)
+BAY  b ej
+
+# "bin" = been / are ("we bin going")
+BIN  b ɪ n
+
+# "cor" = can't
+COR  k ɒː
+COR  k ɒ
+
+# "day" = didn't ("I day see it")
+DAY  d ej
+
+# "doh" / "dow" = don't
+DOH  d əw
+DOW  d aw
+DOW  d əw
+
+# "wo" / "wor" = won't / wasn't
+WO  w əw
+WOR  w ɒː
+
+# "-'m" generalized am: "we'm", "you'm", "yow'm", "her's" (she is)
+WE'M  w iː m
+WE'M  w ɪ m
+YOU'M  j ʉː m
+YOU'M  j ə m
+YOW  j aw
+YOW'M  j aw m
+
+# "summat" = something
+SUMMAT  s ɐ m ə t
+SUMMAT  s ʊ m ə t
+
+# "tara" / "ta-ra" = goodbye; "ta" = thanks
+TARA  t ə ɹ ɑː
+TA  t ɑː
+
+# "ent" / "in't" = isn't
+ENT  ɛ n t
+IN'T  ɪ n t
+
+# ---- OTHER ----
+BLAH  b l ɑː
+LEGALISED  l iː ɡ ə l aj z d
+TANTRUM  t a n t ɹ ə m 
+SPONTANEOUS s p ɒ n t ej n i ə s
+CUZ  k ɐ z
+UBER ʉː b ə
+TIKTOK t ɪ k t ɒ k
+TYRION t i ɹ i ə n 
+FUCK  f ɐ k
+FUCKING  f ɐ k ɪ ŋ
+SHIT  ʃ ɪ t
+NAH  n a
+NAH  n ɒː
+NAH  n ɑː
+DUH  d ɐ
+HMMM  m
+
+ECLAIR  i k l ɛː
+CREME  k ɹ iː m 
+TWIRL  t w ɜː ɫ
+TWIRL  t w ɛː ɫ
+WISPA  w ɪ s p ə
+CRUNCHIE  k ɹ ɐ n tʃ i
+DINKY  d ɪ n k i
+WURLY  w ɜː ʎ i
+UGH  ɐ ɡ
+MMMM  m
+MHMM  m
